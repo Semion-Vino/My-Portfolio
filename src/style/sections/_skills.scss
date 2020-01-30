@@ -1,0 +1,49 @@
+.skill-logo {
+  height: 100px;
+  width: 100px;
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
+
+.skill-logo:hover {
+  transform: scale(1.2) rotate(10deg);
+  transition-duration: 0.5s;
+}
+
+.odd:hover {
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.h3 {
+  font-size: 20pt;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+@media screen and (max-width:992px) {
+  .skill-logo {
+    height: 80px;
+    width: 80px
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .invisible-row {
+    display: block !important
+  }
+
+  .invi {
+    display: none;
+  }
+}
+
+@media screen and (max-width:431px) {
+  .s-visible {
+    display: inline-block !important;
+  }
+
+  .s-invi {
+    display: none;
+  }
+}
