@@ -90,4 +90,16 @@
   }
 }
 
-@media screen and (max-width:892px) {}
+@media screen and (max-width:600px) {
+  .arrow {
+    height: 80px;
+    width: 110px;
+    top: 50px;
+  }
+
+  .hero-title {
+    //text-shadow: 2px 2px #000;
+    text-shadow: -1px -1px 2px rgb(255, 255, 255);
+    text-shadow: -1px -1px 2px rgb(255, 255, 255);
+  }
+}
